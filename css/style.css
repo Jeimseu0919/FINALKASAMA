@@ -446,9 +446,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 .copywrite p a{
 	color: #fff;
 }
-/*--about--*/
+/*--ABOUT SECTION--*/
 .banner2{
-	background:url(../images/banner.jpg) no-repeat;
+	background:url(../images/banners.jpg) no-repeat;
 	background-size:cover;
 	min-height:270px;
 }
@@ -457,11 +457,18 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .about-head h2,.gallery h2,.main-head-section h2,.blog-head h2,h2.top{
   font-family: 'Ubuntu-Medium';
-  font-size: 2.5em;
+  font-size: 2em;
   margin-bottom: 0.5em;
   color: #4286f4;
 }
-.about-head h4{
+.about-head h3{
+    font-family: 'Ubuntu-Medium';
+    font-size: 1.7em;
+    margin: 0.5em;
+    color: #181a1b;
+    text-align: center;
+}
+.about-head p {
   font-family: 'Ubuntu-Medium';
   font-size: 1.1em;
   color: #777;
@@ -469,35 +476,42 @@ ul.callbacks_tabs.callbacks1_tabs {
   text-align: center;
 }
 
-.video-grid{
-	 margin:3em 0;
+.photo-grid{
+    margin: 1em;
 }
-.video {
+.photo {
   padding-left: 0;
+  position: relative;
+  left:200px;
+  top:0px;
 }
-.video iframe{
+.photo iframe{
 	 width:100%;
 	 height:320px;
 }
-.video-info h3 {
+.photo-info h3 {
     font-family: 'Ubuntu-Medium';
   font-size: 1.6em;
   color: #181a1b;
   margin-bottom: 0.7em;
 }
-.video-info h4 {
+.photo-info h4 {
   color:#4286f4; 
     font-family: 'Ubuntu-Medium';
-  font-size: 1.1em;
+  font-size: 2em;
   margin-bottom: 0.5em;
 }
-.video-info p {
+.photo-info p {
   margin-bottom: 1.5em;
     font-size: 0.95em;
   color: #777;
   line-height: 1.7em;
 }
-.our_work h3 {
+
+.our_campus {
+    padding: 0;
+}
+.our_campus h3 {
   font-family: 'Ubuntu-Medium';
   font-size: 2em;
   margin-bottom: 0.5em;
@@ -510,7 +524,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   font-size: 1.2em;
   display:inline-block;
   margin: 0.5em 0;
-  text-decoration:none;
+  text-decoration:none; 
 }
 .camp-grid p {
   font-size: 0.95em;
